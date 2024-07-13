@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/twotest",
+      "destination": "/https://flexitwo.webflow.io/"
+ },
+ {
+      "source": "/twotest/(.*)",
+      "destination": "https://flexitwo.webflow.io/$1"
+ }
+  ]
+}
